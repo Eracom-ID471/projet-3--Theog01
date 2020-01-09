@@ -11,15 +11,42 @@ body {
 // font-family: 'Dosis', sans-serif;
 // font-family: 'News Cycle', sans-serif;
 
-// .grid {
-//     display: grid;
-//     grid-template-columns: repeat(1, 1fr);
-//     grid-gap: 10px;
-// }
-//
-// .logo {
-//   font-family: 'Dosis', sans-serif;
-// }
-//
-// .menu {
-//   font-family: 'News Cycle', sans-serif;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+.menu {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 17%;
+}
+hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  margin-left: 5%;
+  margin-top: -10px;
+}

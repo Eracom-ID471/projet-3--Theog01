@@ -1,3 +1,13 @@
 url: "http://eracom-id471.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/projet-3--Theog01" # the subpath of your site, e.g. /blog
 title: "Mon site 2" # the name of your site, e.g. ACME Corp.
+
+navigation:
+  - title: News
+    url: /news.html
+  - title: Sorties
+    url: /sorties.html
+  - title: Tests
+    url: /tests.html
+  - title: Vidéos
+    url: /vidéos.html

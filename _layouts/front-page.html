@@ -3,8 +3,10 @@
 {% include head.html %}
 
 <body>
-  {% include header.html %}
-  <hr>
+  <div class="container">
+    {% include header.html %}
+  </div>
+  <img class="image" src="{{ post.image | relative_url }}" />
   {% include footer.html %}
 </body>
 

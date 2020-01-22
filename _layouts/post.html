@@ -5,16 +5,13 @@
 <body>
   <div class="container">
     {% include header.html %}
-    <hr>
+  <hr>
+    <img class="image" src="{{ page.image | relative_url }}" />
     <h1 class="title">{{ page.title }}</h1>
-    <h1 class="title">{{ posts.title }}</h1>
-
-    <div class="image">
-        <img src="{{ page.image | relative_url }}">
-    </div>
-    <p>{{ page.date | date_to_long_string }}</p>
   </div>
+  <main class="container">
     {{ content }}
+  </main>
 
   {% include footer.html %}
 </body>

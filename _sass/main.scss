@@ -47,18 +47,30 @@ hr {
 .title {
   font-family: 'Dosis', sans-serif;
   font-size: 50px;
-  margin-left: 5%;
-  margin-top: -10px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-.post-image {
+h1 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 5%;
+}
+
+.image {
   overflow: hidden;
   position: relative;
   height: 300px;
-  width: 100%;
-   img {
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-   }
+  width: auto;
+  margin-left: 30%;
+}
+
+.texte {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
 }

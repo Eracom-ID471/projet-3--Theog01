@@ -7,9 +7,6 @@
     {% include header.html %}
   </div>
   <hr>
-  {% for post in site.posts %}
-    <h1><a href="{{ post.url | relative_url  }}">{{ post.title }}</a></h1>
-  {% endfor %}
   {% include footer.html %}
 </body>
 

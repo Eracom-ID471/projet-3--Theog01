@@ -6,7 +6,9 @@
   <div class="container">
     {% include header.html %}
   </div>
-  <img class="image" src="{{ post.image | relative_url }}" />
+  {% for post in site.posts %}
+    <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
+  {% endfor %}
   {% include footer.html %}
 </body>
 

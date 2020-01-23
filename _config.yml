@@ -11,3 +11,5 @@ navigation:
     url: /tests.html
   - title: Vidéos
     url: /vidéos.html
+  - title: Contribute
+    url: /contribute.html
